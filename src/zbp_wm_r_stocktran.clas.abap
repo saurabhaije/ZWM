@@ -1,0 +1,5 @@
+CLASS zbp_wm_r_stocktran DEFINITION PUBLIC ABSTRACT FINAL FOR BEHAVIOR OF zwm_r_stocktran.
+ENDCLASS.
+
+CLASS zbp_wm_r_stocktran IMPLEMENTATION.
+ENDCLASS.
