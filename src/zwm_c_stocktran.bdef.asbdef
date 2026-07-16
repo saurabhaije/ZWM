@@ -1,0 +1,10 @@
+projection;
+strict ( 2 );
+
+define behavior for ZWM_C_STOCKTRAN //alias <alias_name>
+{
+//  use create;
+//  use update;
+//  use delete;
+    use action changeStockType;
+}

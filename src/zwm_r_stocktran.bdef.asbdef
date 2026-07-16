@@ -1,0 +1,17 @@
+unmanaged implementation in class zbp_wm_r_stocktran unique;
+strict ( 2 );
+
+define behavior for ZWM_R_STOCKTRAN //alias <alias_name>
+//late numbering
+lock master
+authorization master ( instance )
+//etag master <field_name>
+{
+  create ( authorization : global );
+  update;
+  delete;
+  field ( readonly ) ParentHandlingUnitUUID, StockItemUUID;
+
+  action changeStockType parameter ZWM_DD_STOCKTRAN_INPUT; //result[1] $self;
+
+}

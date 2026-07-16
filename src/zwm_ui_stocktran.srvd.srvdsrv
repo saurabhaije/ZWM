@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service Definition - Stock Transfer'
+define service ZWM_UI_STOCKTRAN {
+  expose ZWM_C_STOCKTRAN;
+}

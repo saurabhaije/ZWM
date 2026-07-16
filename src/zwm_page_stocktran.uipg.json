@@ -1,0 +1,26 @@
+{
+  "formatVersion": "1",
+  "header": {
+    "description": "Page Template - Stock Transfer",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "title": "Stock Transfer"
+  },
+  "sections": [
+    {
+      "id": "SECTION_000",
+      "title": "Section 000",
+      "visualizations": [
+        {
+          "id": "SECTION_000_VIZ_1",
+          "ladiAssignment": {
+            "ladiId": "ZSTOCKTRAN_UI5R",
+            "tileId": "UI5R_A094E65EAEEA2209800D13680211BE9AD27D83BD_AL"
+          }
+        }
+      ]
+    }
+  ]
+}

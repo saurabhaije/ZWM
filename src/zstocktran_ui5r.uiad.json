@@ -1,0 +1,34 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "Custom Fiori Application for Stock Transfer (KTS)",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "Stock Transfer"
+  },
+  "ui5AppDetails": {
+    "appId": "stocktransfer"
+  },
+  "navigation": {
+    "targetMappingId": "UI5R_A094E65EAEEA2209800D13680211BE9AD27D83BD_TM",
+    "semanticObject": "StockTransfer",
+    "action": "display",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "UI5R_A094E65EAEEA2209800D13680211BE9AD27D83BD_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "Stock Transfer"
+      }
+    }
+  ]
+}
